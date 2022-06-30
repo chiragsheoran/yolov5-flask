@@ -1,0 +1,152 @@
+html,
+/* body {
+  background-image: url(/static/bg2.jpg);
+  height: 100%;
+} */
+
+body {
+  /* display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  font-weight: bold;
+  color: #0e0d0d; */
+  background: url(/static/bg2.jpg) no-repeat;
+  /* Keep the inherited background full size. */
+  background-attachment: fixed; 
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 30rem;
+  height: 30rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  margin: auto;
+  padding: 1rem;
+  justify-content: center;
+}
+.form-signin .h1{
+  font-weight: bolder;
+}
+#file-upload-button{
+  background:rgb(11, 158, 216);
+  /* font-size:25px; */
+}
+.form-signin .form-control-file {
+  padding: 0;
+  width:14rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem; 
+  color: black;
+ 
+  /* font-weight: bold; */
+
+  
+  
+  
+  /* width: 100%; */
+
+  /* position: absolute; */
+  /* top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px; */
+  /* cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); */
+  
+  /* position: absolute;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px; */
+
+  /* width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden; */
+}
+
+
+.form-signin:before {
+  content: "center";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: auto;
+}
+.btn{
+  width: 10rem;
+  margin-left: 30%;
+ 
+}
+.container{
+  margin-top: 3rem;
+}
+p.t{
+  color: #000000;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+.mb-4{
+  margin-top: 1rem;
+  /* border: 1px; */
+  border-radius: 10px;
+  height: 5rem;
+  min-height: auto;
+}
+/* p .mb-3{
+  color:#000000
+} */
+
+
+label.label input[type="file"] {
+  position: absolute;
+  top: -1000px;
+}
+.label {
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px;
+  background: #dddddd;
+  display: inline-block;
+}
+.label:hover {
+  background: #5cbd95;
+}
+.label:active {
+  background: #9fa1a0;
+}
+.label:invalid + span {
+  color: #000000;
+}
+.label:valid + span {
+  color: #ffffff;
+}

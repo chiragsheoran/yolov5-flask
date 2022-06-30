@@ -1,5 +1,6 @@
 html,
 body {
+  background-image: url(/static/bg2.jpg);
   height: 100%;
 }
 
@@ -10,7 +11,9 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-color: #000000;
+  font-weight: bold;
+  /* color: #0e0d0d; */
 }
 
 .form-signin {
@@ -26,4 +29,30 @@ body {
   height: auto;
   padding: 10px;
   font-size: 16px;
+}
+
+h1 {
+  display:inline-block;
+  text-align: left;
+  white-space:nowrap;
+  font-size:20px;
+  color: black;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display:inline-block;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 30px;
+  color: rgb(65, 33, 194);
+  margin-top: 5em;
+  margin-bottom: 0.9em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
